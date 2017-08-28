@@ -16,9 +16,8 @@ struct GIPHYTrending : Singleton, ServiceHost {
     typealias Instance = GIPHYTrending
     
     static var scheme: String { return "https" }
-    static var host: String { return "api.giphy.com/v1/gifs/" }
-    static var path: String? { return "trending" }
-    static var apiKey: String { return "b64297ad1df54e36950600f4e962b5ed"}
+    static var host: String { return "api.giphy.com" }
+    static var path: String? { return "/v1/gifs/trending" }
     
 }
 

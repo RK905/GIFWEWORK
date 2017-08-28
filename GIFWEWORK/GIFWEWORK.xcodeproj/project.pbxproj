@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A57EC2A1F539EEF00DB6515 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3231F539E4100CCEC20 /* ReactiveCocoa.framework */; };
+		0A57EC2B1F539EEF00DB6515 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3231F539E4100CCEC20 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A57EC2C1F539EEF00DB6515 /* ReactiveJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3241F539E4100CCEC20 /* ReactiveJSON.framework */; };
+		0A57EC2D1F539EEF00DB6515 /* ReactiveJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3241F539E4100CCEC20 /* ReactiveJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A57EC2E1F539EEF00DB6515 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3251F539E4100CCEC20 /* ReactiveSwift.framework */; };
+		0A57EC2F1F539EEF00DB6515 /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3251F539E4100CCEC20 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A57EC301F539EEF00DB6515 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3261F539E4100CCEC20 /* Result.framework */; };
+		0A57EC311F539EEF00DB6515 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3261F539E4100CCEC20 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0ACFA3091F539DA600CCEC20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA3081F539DA600CCEC20 /* AppDelegate.swift */; };
 		0ACFA30B1F539DA600CCEC20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA30A1F539DA600CCEC20 /* ViewController.swift */; };
 		0ACFA30E1F539DA600CCEC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFA30C1F539DA600CCEC20 /* Main.storyboard */; };
@@ -15,11 +23,25 @@
 		0ACFA3201F539E0B00CCEC20 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA31D1F539E0B00CCEC20 /* SwiftyGifManager.swift */; };
 		0ACFA3211F539E0B00CCEC20 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA31E1F539E0B00CCEC20 /* UIImage+SwiftyGif.swift */; };
 		0ACFA3221F539E0B00CCEC20 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA31F1F539E0B00CCEC20 /* UIImageView+SwiftyGif.swift */; };
-		0ACFA3271F539E4100CCEC20 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3231F539E4100CCEC20 /* ReactiveCocoa.framework */; };
-		0ACFA3281F539E4100CCEC20 /* ReactiveJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3241F539E4100CCEC20 /* ReactiveJSON.framework */; };
-		0ACFA3291F539E4100CCEC20 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3251F539E4100CCEC20 /* ReactiveSwift.framework */; };
-		0ACFA32A1F539E4100CCEC20 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFA3261F539E4100CCEC20 /* Result.framework */; };
+		0ACFA32E1F539EC800CCEC20 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA32D1F539EC800CCEC20 /* ApiService.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A57EC321F539EEF00DB6515 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A57EC2B1F539EEF00DB6515 /* ReactiveCocoa.framework in Embed Frameworks */,
+				0A57EC2D1F539EEF00DB6515 /* ReactiveJSON.framework in Embed Frameworks */,
+				0A57EC2F1F539EEF00DB6515 /* ReactiveSwift.framework in Embed Frameworks */,
+				0A57EC311F539EEF00DB6515 /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0ACFA3051F539DA600CCEC20 /* GIFWEWORK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFWEWORK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +59,7 @@
 		0ACFA3241F539E4100CCEC20 /* ReactiveJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveJSON.framework; sourceTree = "<group>"; };
 		0ACFA3251F539E4100CCEC20 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveSwift.framework; sourceTree = "<group>"; };
 		0ACFA3261F539E4100CCEC20 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		0ACFA32D1F539EC800CCEC20 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,10 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACFA3271F539E4100CCEC20 /* ReactiveCocoa.framework in Frameworks */,
-				0ACFA3281F539E4100CCEC20 /* ReactiveJSON.framework in Frameworks */,
-				0ACFA3291F539E4100CCEC20 /* ReactiveSwift.framework in Frameworks */,
-				0ACFA32A1F539E4100CCEC20 /* Result.framework in Frameworks */,
+				0A57EC2E1F539EEF00DB6515 /* ReactiveSwift.framework in Frameworks */,
+				0A57EC301F539EEF00DB6515 /* Result.framework in Frameworks */,
+				0A57EC2C1F539EEF00DB6515 /* ReactiveJSON.framework in Frameworks */,
+				0A57EC2A1F539EEF00DB6515 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +96,8 @@
 		0ACFA3071F539DA600CCEC20 /* GIFWEWORK */ = {
 			isa = PBXGroup;
 			children = (
+				0ACFA32C1F539EC000CCEC20 /* APIService */,
+				0ACFA32B1F539EB700CCEC20 /* New Group */,
 				0ACFA31A1F539DDB00CCEC20 /* Frameworks */,
 				0ACFA3081F539DA600CCEC20 /* AppDelegate.swift */,
 				0ACFA30A1F539DA600CCEC20 /* ViewController.swift */,
@@ -107,6 +132,21 @@
 			name = GIF;
 			sourceTree = "<group>";
 		};
+		0ACFA32B1F539EB700CCEC20 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		0ACFA32C1F539EC000CCEC20 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA32D1F539EC800CCEC20 /* ApiService.swift */,
+			);
+			name = APIService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +157,7 @@
 				0ACFA3011F539DA600CCEC20 /* Sources */,
 				0ACFA3021F539DA600CCEC20 /* Frameworks */,
 				0ACFA3031F539DA600CCEC20 /* Resources */,
+				0A57EC321F539EEF00DB6515 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +223,7 @@
 			files = (
 				0ACFA3201F539E0B00CCEC20 /* SwiftyGifManager.swift in Sources */,
 				0ACFA30B1F539DA600CCEC20 /* ViewController.swift in Sources */,
+				0ACFA32E1F539EC800CCEC20 /* ApiService.swift in Sources */,
 				0ACFA3211F539E0B00CCEC20 /* UIImage+SwiftyGif.swift in Sources */,
 				0ACFA3091F539DA600CCEC20 /* AppDelegate.swift in Sources */,
 				0ACFA3221F539E0B00CCEC20 /* UIImageView+SwiftyGif.swift in Sources */,
@@ -356,6 +398,7 @@
 				0ACFA3191F539DA700CCEC20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
